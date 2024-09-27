@@ -19,7 +19,6 @@ body {
     max-width: 400px;
   }
   
-  /* Title */
   .title {
     text-align: center;
     margin-bottom: 20px;
@@ -28,10 +27,9 @@ body {
     color: #bb86fc;
   }
   
-  /* Task input */
+  
   .task-input {
     display: flex;
-    margin-bottom: 20px;
   }
   
   .task-input input {
@@ -60,7 +58,7 @@ body {
     color: #888;
   }
   
-  /* Task list */
+  
   #taskList {
     list-style: none;
     padding: 0;

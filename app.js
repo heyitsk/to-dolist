@@ -31,16 +31,9 @@ function createTask(taskText) {
 }
 
 addTaskBtn.addEventListener('click', () => {
-  const taskText = taskInput.value.trim();
+  const taskText = taskInput.value;
   if (taskText !== '') {
     createTask(taskText);
     taskInput.value = '';
-  }
-});
-
-
-taskInput.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') {
-    addTaskBtn.click();
   }
 });
